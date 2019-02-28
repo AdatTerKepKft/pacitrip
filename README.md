@@ -3,7 +3,7 @@ Webes térképes alkalmazás, mely utazások útvonalait és állomásait jelen�
 
 Az alkalmazás felépítésének állomásait külön ágakban (branch-ekben) őrizzük meg.
 
-## master branch
+### master branch
 Mindig az alkalmazás legfrissebb, legteljesebb változatát tartalmazza.
 
 ### step02-skeleton-of-the-webmap branch
