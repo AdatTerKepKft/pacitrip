@@ -1,0 +1,117 @@
+:root{
+    
+    /* Színek */
+    --color-v01: #2bb673; /* AdatTérKép zöld */
+    --color-v02: #fdfffd; /* Nagyon halvány zöld */
+    --color-v03: #ffffff; /* Fehér */
+    --color-v04: #a0ffd2; /* Világos zöld */
+    --color-v05: #0f4028; /* Sötétzöld */
+    --color-v06: #000000; /* Fekete */    
+    
+    /* Szöveg mérete */
+    --font-size-v01: 1em;
+    --font-size-v02: 1.25em;
+    --font-size-v03: .8em;
+    
+    /* Betűtípus */
+    --font-family-v01:  "Open Sans", sans-serif;
+    
+    /* Kerekítés */
+    --border-radius-v01: .75em;
+    --border-radius-v02: .3em;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: var(--font-family-v01);
+    color: var(--color-v06);
+    background-color: var(--color-v02);
+    font-size: var(--font-size-v01);
+}
+
+.box{
+    display: inline-block;
+    float: left;
+    background-color: var(--color-v03);
+    border: solid .0625em var(--color-v05);
+    border-radius: var(--border-radius-v01);
+}
+
+/* Header */
+
+#header{
+    margin: .5em .5em .25em .5em;
+    height: 2.5em;
+    line-height: 2.5em;
+    width: calc(100% - 1.125em);
+}
+
+.mainTitle{
+    margin: 0em 2em;
+    font-size: var(--font-size-v02);
+    font-variant: small-caps;
+    font-weight: bold;
+}
+
+.logo{
+    float: right;
+}
+
+.logo img{
+    height: 2em;
+    padding: 0.25em
+}
+
+/* Map */
+
+#map{
+    position: relative;
+    width: calc(100% - 1.125em);
+    height: calc(100% - 4.25em);
+    margin: .25em .5em .5em .5em;
+}
+
+/* Trip selector */
+
+#tripSelector{
+    position: absolute;
+    z-index: 1;
+    top: .5em;
+    right: .5em;
+    font-size: var(--font-size-v01);
+}
+
+.tripSelectorButton{
+    display: block;
+    min-width: 10em;
+    height: 2em;
+    background-color: var(--color-v04);
+    font-size: var(--font-size-v01);
+    border-radius: var(--border-radius-v02);
+}
+
+.tripSelectorDropdownItem{
+    cursor: pointer;
+    padding: .1em .5em;
+    text-align: center;
+    background-color: var(--color-v02);
+}
+
+.tripSelectorDropdownItem:hover{
+    background-color: var(--color-v05);
+    color: var(--color-v02);
+}
+
+/* Time Slider */
+
+#timeSlider{
+    z-index: 1;
+    position: absolute;
+    bottom: 1em;
+    left: 20%;
+    width: 60%;
+    height: 2.5em;
+}
