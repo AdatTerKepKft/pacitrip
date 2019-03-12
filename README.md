@@ -6,6 +6,9 @@ Az alkalmazás felépítésének állomásait külön ágakban (branch-ekben) ő
 ### master branch
 Mindig az alkalmazás legfrissebb, legteljesebb változatát tartalmazza.
 
+### step03-turn-it-into-a-webmapping-app branch
+Az alkalmazás webes térképes alkalmazássá alakítva, ahogy a [Webes térinformatika - PaciTrip 4. rész (Az alkalmazás térképes alkalmazássá alakítása (Javascript, jQuery, OpenLayers))](https://adatterkep.com/webes-terinformatika-pacitrip-4-resz-az-alkalmazas-terkepes-alkalmazassa-alakitasa-javascript-jquery-openlayers) blogbejegyzésben leírtuk.
+
 ### step02-skeleton-of-the-webmap branch
 Az alkalmazás váza, ahogy a [Webes térinformatika - PaciTrip 3. rész (Az alkalmazás váza (HTML, CSS))](https://adatterkep.com/webes-terinformatika-pacitrip-3-resz-az-alkalmazas-vaza-html-css) blogbejegyzésben leírtuk.
 
