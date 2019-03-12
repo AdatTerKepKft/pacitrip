@@ -5,6 +5,13 @@
         <title>PaciTrip</title>
         <!-- Open Sans betűtípus -->
         <link rel = "stylesheet" type = "text/css" href = "libs/open_sans_font.css"/>
+        <!-- jQuery -->
+        <script src = "libs/jquery.js"></script>
+        <!-- OpenLayers -->
+        <script src = "libs/ol.js"></script>
+        <link rel = "stylesheet" href = "libs/ol.css" type = "text/css"/> 
+        <!-- Saját JS -->
+        <script src = "js/map.js"></script>
         <!-- Saját CSS -->
         <link rel = "stylesheet" href = "css/style.css" type = "text/css"/>
     </head>
@@ -19,7 +26,7 @@
         
         <!-- Map -->
         <div id = "map" class = "box">
-
+        
             <!-- Trip Selector -->        
             <div id = "tripSelector">
                 <button class = "tripSelectorButton" value = "nordtrip">NordTrip</button>
@@ -28,7 +35,7 @@
                 <div class = "tripSelectorDropdownItem" value = "iretrip">IreTrip</div>
                 <div class = "tripSelectorDropdownItem" value = "eurotrip">EuroTrip</div>
             </div>
-
+            
             <!-- Time slider -->
             <div id = "timeSlider" class = "box">
             </div>

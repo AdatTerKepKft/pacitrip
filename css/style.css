@@ -74,6 +74,10 @@ html, body{
     margin: .25em .5em .5em .5em;
 }
 
+#map canvas{
+    border-radius: var(--border-radius-v01);
+}
+
 /* Trip selector */
 
 #tripSelector{
