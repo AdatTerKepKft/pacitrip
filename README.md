@@ -6,6 +6,9 @@ Az alkalmazás felépítésének állomásait külön ágakban (branch-ekben) ő
 ### master branch
 Mindig az alkalmazás legfrissebb, legteljesebb változatát tartalmazza.
 
+### step04-add-popup-window-to-the-app branch
+Információs ablak hozzáadása a webes térképes alkalmazáshoz, ahogy a [Webes térinformatika - PaciTrip 5. rész (Új funkció: információ ablak)](https://adatterkep.com/webes-terinformatika-pacitrip-5-resz-uj-funkcio-informacio-ablak) blogbejegyzésben leírtuk.
+
 ### step03-turn-it-into-a-webmapping-app branch
 Az alkalmazás webes térképes alkalmazássá alakítva, ahogy a [Webes térinformatika - PaciTrip 4. rész (Az alkalmazás térképes alkalmazássá alakítása (Javascript, jQuery, OpenLayers))](https://adatterkep.com/webes-terinformatika-pacitrip-4-resz-az-alkalmazas-terkepes-alkalmazassa-alakitasa-javascript-jquery-openlayers) blogbejegyzésben leírtuk.
 
