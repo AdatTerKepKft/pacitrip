@@ -6,7 +6,7 @@
     --color-v03: #ffffff; /* Fehér */
     --color-v04: #a0ffd2; /* Világos zöld */
     --color-v05: #0f4028; /* Sötétzöld */
-    --color-v06: #000000; /* Fekete */    
+    --color-v06: #000000; /* Fekete */
     
     /* Szöveg mérete */
     --font-size-v01: 1em;
@@ -118,4 +118,64 @@ html, body{
     left: 20%;
     width: 60%;
     height: 2.5em;
+}
+
+/* Popup */
+
+/* ##### Át kell még nézni, hogy kell-e ez mind, illetve hogy amennyire lehet relatív értékekkel dolgozzon! */
+
+.ol-popup {
+    position: absolute;
+    background-color: var(--color-v03);
+    -webkit-filter: drop-shadow(0 .0625em .25em rgba(0,0,0,0.2));
+    filter: drop-shadow(0 .0625em .25em rgba(0,0,0,0.2));
+    padding: 1em;
+    border-radius: .625em;
+    border: .0625em solid #cccccc;
+    bottom: .75em;
+    left: -3.125em;
+    min-width: 17.5em;
+}
+
+.ol-popup:after, .ol-popup:before {
+    top: 100%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+.ol-popup:after {
+    border-top-color: var(--color-v03);
+    border-width: .625em;
+    left: 3em;
+    margin-left: -.625em;
+}
+
+.ol-popup:before {
+    border-top-color: #cccccc;
+    border-width: .6875em;
+    left: 3em;
+    margin-left: -.6875em;
+}
+
+.ol-popup-closer {
+    position: absolute;
+    cursor: pointer;
+    top: .3125em;
+    right: .3125em;
+}
+
+.popupImage{
+    max-width: 90%;
+    margin: .5em 5%;
+}
+
+.popupLink{
+    color: var(--color-v01);
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 auto;
 }
