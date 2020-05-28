@@ -95,6 +95,7 @@ html, body{
     background-color: var(--color-v04);
     font-size: var(--font-size-v01);
     border-radius: var(--border-radius-v02);
+    cursor: pointer;
 }
 
 .tripSelectorDropdownItem{
@@ -102,6 +103,7 @@ html, body{
     padding: .1em .5em;
     text-align: center;
     background-color: var(--color-v02);
+    display: none;
 }
 
 .tripSelectorDropdownItem:hover{
