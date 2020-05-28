@@ -6,6 +6,9 @@ Az alkalmazás felépítésének állomásait külön ágakban (branch-ekben) ő
 ### master branch
 Mindig az alkalmazás legfrissebb, legteljesebb változatát tartalmazza.
 
+### step05-add-trip-selector-dropdown-button branch
+Az utazás választó gomb és legördülő menü életrekeltése, ahogy a [Webes térinformatika - PaciTrip 6. rész (Új funkció: útvonalválasztó legördülő menü)](https://adatterkep.com/webes-terinformatika-pacitrip-6-resz-uj-funkcio-utvonalvalaszto-legordulo-menu) blogbejegyzésben leírtuk.
+
 ### step04-add-popup-window-to-the-app branch
 Információs ablak hozzáadása a webes térképes alkalmazáshoz, ahogy a [Webes térinformatika - PaciTrip 5. rész (Új funkció: információ ablak)](https://adatterkep.com/webes-terinformatika-pacitrip-5-resz-uj-funkcio-informacio-ablak) blogbejegyzésben leírtuk.
 
